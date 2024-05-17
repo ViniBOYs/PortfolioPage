@@ -8,8 +8,8 @@
 
 
 <template>
-    
-        <div class="header"></div>
+
+
         <header>
         <nav>
           <ul>
@@ -74,13 +74,13 @@
 
 .header{
   height: 2vw;
-  background-color: #49333b;
+  background-color: #383033;
 }
 
 header{
   position:sticky;
   height: 3vw;
-  background-color: #49333b;
+  background-color: #383033;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -89,7 +89,7 @@ header{
   z-index: 2;
   position: sticky;
   top: 0;
-  box-shadow: 0 10px 20px #49333b;
+  box-shadow: 0 10px 20px #383033;
   // rgba(73, 51, 59, 0.25);
   
 
