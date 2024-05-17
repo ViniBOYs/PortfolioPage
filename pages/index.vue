@@ -229,7 +229,19 @@ header{
 
   /* Animation */
   animation: move 4s linear infinite;
+
+  @keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+  }
+  
 }
+
+
 
 .black-bar{
     height: 1vw;
